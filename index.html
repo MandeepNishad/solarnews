@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Solar News</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="video-background">
+      <video autoplay muted loop id="video-bg">
+          <source src="Video/video1.mp4" type="video/mp4">
+          <!-- Add additional source elements for different video formats if needed -->
+          Your browser does not support the video tag.
+      </video>
+    </div>
+      
+      <div class="header">
+        <header class="header-content">
+          <a href="#logo" class="logo">
+            <span class="logo-text">SolarNews</span>
+          </a>
+  
+          <nav class="nav">
+            <a href="#Posts" class="nav-link">Posts</a>
+            <a href="#features" class="nav-link">Featured Post</a>
+            <a href="#trendingpost" class="nav-link">Trending Post</a>
+            <a href="#tags" class="nav-link">Tags</a>
+            <a href="#aboutus" class="nav-link">About Us</a>
+          </nav>
+  
+          <a href="#contact" class="contact-button"> Contact Us </a>
+  
+          <button type="button" class="menu-button">
+            <img
+              src="./images/Hamburger.svg"
+              alt="menuButton"
+              class="menu-icon"
+            />
+          </button>
+        </header>
+      </div>
+
+    <div class="content"></div>
+      <div class="body1" id="body2">
+        <div class="wrapper">
+          <h3>User Feedback</h3>
+          <form action="#">
+            <div class="rating">
+              <input type="number" name="rating" hidden />
+              <i class="bx bx-star star" style="--i: 0"></i>
+              <i class="bx bx-star star" style="--i: 1"></i>
+              <i class="bx bx-star star" style="--i: 2"></i>
+              <i class="bx bx-star star" style="--i: 3"></i>
+              <i class="bx bx-star star" style="--i: 4"></i>
+            </div>
+            <textarea
+              name="opinion"
+              cols="30"
+              rows="5"
+              placeholder="Your opinion..."
+            ></textarea>
+            <div class="btn-group">
+              <button type="submit" class="btn submit">Submit</button>
+              <button class="btn cancel">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- newsletter -->
+
+    <div class="container">
+      <h1>Subscribe to our Newsletter</h1>
+      <div class="email">
+          <input type="email" placeholder="Email">
+          <i class="icon fa fa-envelope"></i>
+          <button type="submit">Subscribe</button>
+      </div>
+  </div>
+    
+    <!-- footer -->
+      <footer>
+        <div class="footer1">
+          <p class="footer">Follow us on social media:</p>
+          <a
+            href="https://www.facebook.com/gautamsolarprivatelimited/"
+            target="_blank"
+            ><img class="images1" src="images/facebook.png" alt="Facebook"
+          /></a>
+          <a
+            href="https://www.linkedin.com/company/gautamsolarpvtltd/?originalSubdomain=in"
+            target="_blank"
+            ><img class="images2" src="images/linkedin.png" alt="Twitter"
+          /></a>
+        </div>
+      </footer>
+
+      <script src="scripts.js"></script>
+   
+  </body>
+</html>
